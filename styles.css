@@ -11,6 +11,7 @@ body{
      --mode-change: 33px;
      font-family: 'Inter', sans-serif;
      --opacity-hr: 12%;
+     --hover-color: hsl(229, 26%, 29%);
 }
 body.light{
      --bg-color: white;
@@ -22,6 +23,7 @@ body.light{
      --circle-color: hsl(0, 0%, 100%);
      --mode-change: 4px;
      --opacity-hr: 100%;
+     --hover-color: hsl(230, 16%, 85%);
 }
 h1,h2,h3{
      color: var(--heading-color);
@@ -74,6 +76,7 @@ hr{
      width: 250px;
      height: 250px;
      background-color: var(--card-color);
+     cursor: pointer;
 }
 .youtube{
      margin-right: 150px;
@@ -236,6 +239,7 @@ hr{
      background-color: white;
      border-radius: 5px;
      background-color: var(--card-color);
+     cursor: pointer;
 }
 .b1{
      margin-left: 150px;
